@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ab4a8a6e-4e0a-436d-858d-83861ca97ae3" name="spring_edu" url="http://sohee.shop">
+        <fileTransfer rootFolder="/var/www/test2/api-server-spring-boot-final-2" accessType="SFTP" host="sohee.shop" port="22" sshConfigId="95d8f411-0cbf-4e0f-ade5-5b477a8042e8" sshConfig="ubuntu@sohee.shop:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

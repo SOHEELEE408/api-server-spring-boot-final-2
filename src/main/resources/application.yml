@@ -1,0 +1,32 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://soheedb.cs0bq7qc1m74.ap-northeast-2.rds.amazonaws.com/coupang?autoReconnect=true # 변경해주세요
+    username: admin # 변경해주세요
+    password: 12341234 # 변경해주세요
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
+    # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  sns:
+    google:
+      url: https://accounts.google.com/o/oauth2/v2/auth
+      client:
+        id: 662396731488-bqesdgi44dkd91bik0koebrneavbm2n8.apps.googleusercontent.com
+        secret: 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
+      callback:
+        url: http://localhost:9000/auth/google/callback
+      token:
+        url: https://oauth2.googleapis.com/token

@@ -1,0 +1,9 @@
+04:19:45.198 ERROR [File:ReviewService.java] [Func:createReview] [Line:46] [Message:[ERROR Level] 데이터베이스 등록 실패]- [ERROR Level] 데이터베이스 등록 실패
+04:21:50.391 ERROR [File:ReviewService.java] [Func:createReview] [Line:46] [Message:[ERROR Level] 데이터베이스 등록 실패]- [ERROR Level] 데이터베이스 등록 실패
+04:40:40.395 ERROR [File:ReviewService.java] [Func:modifyReview] [Line:71] [Message:[ERROR Level] 데이터베이스 수정 실패]- [ERROR Level] 데이터베이스 수정 실패
+04:44:18.207 ERROR [File:ReviewService.java] [Func:modifyReview] [Line:75] [Message:[ERROR Level] 데이터베이스 수정 실패]- [ERROR Level] 데이터베이스 수정 실패
+04:46:41.096 ERROR [File:ReviewService.java] [Func:createReview] [Line:48] [Message:[ERROR Level] 데이터베이스 등록 실패]- [ERROR Level] 데이터베이스 등록 실패
+04:49:23.609 ERROR [File:ReviewService.java] [Func:deleteReview] [Line:99] [Message:[ERROR Level] 데이터베이스 수정 실패]- [ERROR Level] 데이터베이스 수정 실패
+04:53:55.658 ERROR [File:ReviewService.java] [Func:createReview] [Line:48] [Message:[ERROR Level] 데이터베이스 등록 실패]- [ERROR Level] 데이터베이스 등록 실패
+04:55:13.379 ERROR [File:ReviewService.java] [Func:modifyReview] [Line:75] [Message:[ERROR Level] 데이터베이스 수정 실패]- [ERROR Level] 데이터베이스 수정 실패
+04:55:52.844 ERROR [File:ReviewService.java] [Func:deleteReview] [Line:99] [Message:[ERROR Level] 데이터베이스 수정 실패]- [ERROR Level] 데이터베이스 수정 실패
