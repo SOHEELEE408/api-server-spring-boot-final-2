@@ -24,7 +24,7 @@ repositories {
 
 task print(){
     doLast{
-        print "github push complete"
+        print "github push complete 수정 테스트"
     }
 }
 
