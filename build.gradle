@@ -22,6 +22,12 @@ repositories {
     mavenCentral()
 }
 
+task print(){
+    doLast{
+        print "githun push complete"
+    }
+}
+
 dependencies {
     implementation 'org.jetbrains:annotations:19.0.0'
 
